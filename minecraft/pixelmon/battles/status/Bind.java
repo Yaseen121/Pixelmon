@@ -11,7 +11,7 @@ public class Bind extends StatusBase {
 	
 	public Bind() {
 		super(StatusType.Bind, true, false, false);
-		turnsToGo = RandomHelper.getRandomNumberBetween(2, 5);
+		turnsToGo = RandomHelper.getRandomNumberBetween(4, 5);
 	}
     @Override
 	public void applyRepeatedEffect(EntityPixelmon entityPixelmon, EntityPixelmon entityPixelmon2) throws Exception {

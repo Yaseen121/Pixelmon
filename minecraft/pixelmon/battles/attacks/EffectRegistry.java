@@ -30,6 +30,7 @@ public class EffectRegistry {
 		effectMap.put("poison", ApplyPoison.class);
 		effectMap.put("poisonbadly", ApplyPoisonBadly.class);
 		effectMap.put("bind", ApplyBind.class);
+		effectMap.put("wrap", ApplyWrap.class);
 //		effectMap.put("pp", Spite.class);
 		effectMap.put("protect", ApplyProtect.class);
 		effectMap.put("rest", ApplyRest.class);
